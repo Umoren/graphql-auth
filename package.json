@@ -6,8 +6,7 @@
   "scripts": {
     "migrate": " sequelize db:migrate",
     "dev": "nodemon src/server --exec babel-node -e js",
-    "clean": "rimraf build",
-    "start": "node build/server",
+    "start": "node src/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
